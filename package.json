@@ -1,0 +1,34 @@
+{
+    "name":             "moxie",
+    "version":          "9.9.9",
+    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
+    "description":      "An open source, self-hosted crowd-funding framework.",
+    "keywords":
+    [
+                        "web", "crowdfunding"
+    ],
+    "contributors":     [],
+    "homepage":         "https://github.com/bigeasy/moxie",
+    "bugs":             "https://github.com/bigeasy/moxie/issues",
+    "licenses":
+    [{
+                        "type": "MIT",
+                        "url": "http://github.com/bigeasy/moxie/raw/master/LICENSE"
+    }],
+    "repository":
+    {
+                        "type": "git",
+                        "url": "http://github.com/bigeasy/moxie.git"
+    },
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                        "proof":              "0.0.44"
+    },
+    "scripts":
+    {
+                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    }
+}
